@@ -12,7 +12,10 @@ import java.util.Random;
 public class HomeController {
 
 
-    private static Random rand = new Random();
+    /**
+     * Get new instance of Java's standard random number generator
+     */
+    private static final Random rand = new Random();
 
 
 
